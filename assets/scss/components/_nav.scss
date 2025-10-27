@@ -1,1 +1,17 @@
 @use '../abstracts/variables' as var;
+
+/* NAV */
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    list-style-type: none;
+
+    li {
+      a {
+        color: var.$color-white;
+      }
+    }
+  }
+}
