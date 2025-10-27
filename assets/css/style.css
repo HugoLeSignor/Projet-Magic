@@ -106,14 +106,11 @@ header .header__content .header__burger {
 
 /* HERO */
 #hero {
-  background-image: url(../img/banner.webp);
   height: 65vh;
   padding: 3em;
   display: flex;
   align-items: flex-end;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url(../img/banner.webp) center/cover no-repeat;
   margin-bottom: 6em;
 }
 #hero .hero__content .hero__container {
@@ -136,6 +133,9 @@ header .header__content .header__burger {
 }
 
 /* NEWS */
+#news {
+  margin-bottom: 7em;
+}
 #news .news__container {
   text-align: center;
 }
@@ -164,6 +164,7 @@ header .header__content .header__burger {
   top: 1em;
   left: 1em;
   background-color: #b33113;
+  border: 1px solid rgba(233, 233, 233, 0.637);
   color: #fff;
   font-size: 0.8em;
   padding: 0.5em 1em;
@@ -178,6 +179,14 @@ header .header__content .header__burger {
 }
 #news .news__container .news__cards-container .news__card .news__card-content p {
   margin: 1em 0;
+}
+#news .news__container .news__cards-container .news__card .news__card-content .news__card-btns .btn__card {
+  border: 1px solid rgba(233, 233, 233, 0.326);
+  border-radius: 1em;
+  padding: 0.3em 1em;
+  margin: 0.1em;
+  color: #fff;
+  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,20 +2,17 @@
 
 /* HERO */
 #hero {
-  background-image: url(../img/banner.webp);
   height: 65vh;
   padding: 3em;
   display: flex;
   align-items: flex-end;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url(../img/banner.webp) center / cover no-repeat;
   margin-bottom: 6em;
   .hero__content {
     .hero__container {
       color: var.$color-black;
       width: 70%;
-      background-color: var.$color-card-hero;
+      background-color: var.$color-bright-transparent;
       backdrop-filter: blur(3px);
       padding: 3em;
       border-radius: 0.7em;

@@ -2,11 +2,11 @@
 
 /* NEWS */
 #news {
+  margin-bottom: 7em;
   .news__container {
     text-align: center;
     p {
       margin: 2em;
-
     }
     .news__cards-container {
       display: grid;
@@ -29,6 +29,7 @@
             top: 1em;
             left: 1em;
             background-color: var.$color-accent;
+            border: 1px solid var.$color-bright-transparent;
             color: var.$color-white;
             font-size: 0.8em;
             padding: 0.5em 1em;
@@ -40,10 +41,19 @@
           padding: 1.5em;
           h3 {
             margin: 0;
-            
           }
           p {
             margin: 1em 0;
+          }
+          .news__card-btns {
+            .btn__card {
+              border: 1px solid var.$color-dark-transparent;
+              border-radius: 1em;
+              padding: 0.3em 1em;
+              margin: 0.1em;
+              color: var.$color-white;
+              font-size: 0.8rem;
+            }
           }
         }
       }
