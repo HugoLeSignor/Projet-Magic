@@ -1,10 +1,12 @@
+@use '../abstracts/variables' as var;
+
 /* FONTS */
 @font-face {
-  font-family: 'Roboto-Regular';
+  font-family: 'font-main';
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
-  font-family: 'Roboto-Bold';
+  font-family: 'font-bold';
   src: url(../fonts/Roboto-Bold.ttf);
 }
