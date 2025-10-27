@@ -246,13 +246,13 @@ header .header__content .header__burger {
   text-align: center;
   margin-bottom: 3em;
 }
-#latest .latest__container .latest__cards {
+#latest .latest__container .latest__card--container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-#latest .latest__container .latest__cards .latest__card {
+#latest .latest__container .latest__card--container .latest__card {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -262,26 +262,47 @@ header .header__content .header__burger {
   height: 70vh;
   padding: 1rem;
 }
-#latest .latest__container .latest__cards .latest__card img {
+#latest .latest__container .latest__card--container .latest__card img {
   height: 30vh;
   width: auto;
 }
-#latest .latest__container .latest__cards .latest__card h4 {
+#latest .latest__container .latest__card--container .latest__card h4 {
   text-align: center;
   font-size: 1.5rem;
   font-family: font-bold, sans-serif;
 }
-#latest .latest__container .latest__cards .latest__card:nth-child(1) {
+#latest .latest__container .latest__card--container .latest__card:nth-child(1) {
   background-image: url(../img/bfheuakyrubvwr448i.webp);
 }
-#latest .latest__container .latest__cards .latest__card:nth-child(2) {
+#latest .latest__container .latest__card--container .latest__card:nth-child(2) {
   background-image: url(../img/Bniwbiedb2.webp);
 }
-#latest .latest__container .latest__cards .latest__card:nth-child(3) {
+#latest .latest__container .latest__card--container .latest__card:nth-child(3) {
   background-image: url(../img/BbvlL835T_CMM_420x700.webp);
 }
-#latest .latest__container .latest__cards .latest__card:nth-child(4) {
+#latest .latest__container .latest__card--container .latest__card:nth-child(4) {
   background-image: url(../img/Cwtyiugh346-420x700.webp);
+}
+
+/* FOOTER */
+footer .footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+}
+footer .footer__container .footer__logo {
+  text-align: center;
+}
+footer .footer__container .footer__logo img {
+  height: 50px;
+}
+footer .footer__container .footer__logo p {
+  margin: 0;
+  color: #fff;
+}
+footer .footer__container p {
+  color: rgba(233, 233, 233, 0.326);
 }
 
 /*# sourceMappingURL=style.css.map */

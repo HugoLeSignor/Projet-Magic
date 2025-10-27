@@ -1,1 +1,26 @@
 @use '../abstracts/variables' as var;
+
+/* FOOTER */
+footer {
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+    .footer__logo {
+      text-align: center;
+
+      img {
+        height: 50px;
+      }
+      p {
+        margin: 0;
+        color: var.$color-white;
+      }
+    }
+
+    p {
+      color: var.$color-dark-transparent;
+    }
+  }
+}
