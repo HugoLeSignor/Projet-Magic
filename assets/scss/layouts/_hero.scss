@@ -1,1 +1,35 @@
 @use '../abstracts/variables' as var;
+
+/* HERO */
+#hero {
+  background-image: url(../img/banner.webp);
+  height: 65vh;
+  padding: 3em;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .hero__content {
+    .hero__container {
+      color: var.$color-black;
+      width: 70%;
+      background-color: var.$color-card-hero;
+      backdrop-filter: blur(3px);
+      padding: 3em;
+      border-radius: 0.7em;
+      p {
+        margin: 0;
+        font-family: var.$font-bold;
+      }
+    }
+    .hero__btn-container {
+      a {
+        margin-top: 1em;
+        display: inline-block;
+        color: var.$color-white;
+        font-family: var.$font-main;
+      }
+    }
+  }
+}

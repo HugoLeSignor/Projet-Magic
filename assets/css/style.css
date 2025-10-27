@@ -23,6 +23,13 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  margin: 0;
+  color: #b33113;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 3em;
+}
+
 /* UTILITIES */
 .container {
   width: 100%;
@@ -86,8 +93,38 @@ header .header__content .header__burger {
 }
 #promo .promo__content p a {
   padding: 0.5em;
-  background-color: rgba(233, 233, 233, 0.329);
+  background-color: rgba(233, 233, 233, 0.326);
   color: #fff;
+}
+
+/* HERO */
+#hero {
+  background-image: url(../img/banner.webp);
+  height: 65vh;
+  padding: 3em;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#hero .hero__content .hero__container {
+  color: #0a0b0d;
+  width: 70%;
+  background-color: rgba(233, 233, 233, 0.637);
+  backdrop-filter: blur(3px);
+  padding: 3em;
+  border-radius: 0.7em;
+}
+#hero .hero__content .hero__container p {
+  margin: 0;
+  font-family: "Roboto-Bold", sans-serif;
+}
+#hero .hero__content .hero__btn-container a {
+  margin-top: 1em;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
