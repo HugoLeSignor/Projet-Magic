@@ -1,1 +1,61 @@
 @use '../abstracts/variables' as var;
+
+/* CTA */
+#cta {
+  background: url(../img/latest-products-bg.webp) center / cover no-repeat;
+  padding: 1em;
+  margin-bottom: 8em;
+  .cta__container {
+    display: flex;
+    align-items: center;
+    gap: 8em;
+    padding: 3em 0;
+    .cta__content-left {
+      width: 50%;
+      .cta__title {
+        h2 {
+          margin: 0; 
+        }
+        p {
+          margin: 0;
+        }
+      }
+      .cta__list {
+        nav {
+          ol {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.15em;
+            width: auto;
+            display: inline-block;
+            li {
+              border: 1px solid var.$color-dark-transparent;
+              margin-bottom: 1rem;
+              padding: 0.55em;
+              background-color: var.$color-main;
+              border-radius: 0.45em;
+            }
+          }
+        }
+        .cta__list-btns {
+          padding: 1em 0;
+          .cta__btn-ios {
+            color: var.$color-white;
+          }
+          .cta__btn-android {
+            color: var.$color-accent;
+            background-color: transparent;
+            border: 1px solid var.$color-accent;
+          }
+          p {
+            display: block;
+            padding-top: 1em;
+            color: var.$color-dark-transparent;
+          }
+        }
+      }
+    }
+    .cta__content-right {
+    }
+  }
+}

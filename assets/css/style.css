@@ -189,4 +189,56 @@ header .header__content .header__burger {
   font-size: 0.8rem;
 }
 
+/* CTA */
+#cta {
+  background: url(../img/latest-products-bg.webp) center/cover no-repeat;
+  padding: 1em;
+  margin-bottom: 8em;
+}
+#cta .cta__container {
+  display: flex;
+  align-items: center;
+  gap: 8em;
+  padding: 3em 0;
+}
+#cta .cta__container .cta__content-left {
+  width: 50%;
+}
+#cta .cta__container .cta__content-left .cta__title h2 {
+  margin: 0;
+}
+#cta .cta__container .cta__content-left .cta__title p {
+  margin: 0;
+}
+#cta .cta__container .cta__content-left .cta__list nav ol {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.15em;
+  width: auto;
+  display: inline-block;
+}
+#cta .cta__container .cta__content-left .cta__list nav ol li {
+  border: 1px solid rgba(233, 233, 233, 0.326);
+  margin-bottom: 1rem;
+  padding: 0.55em;
+  background-color: #0f1217;
+  border-radius: 0.45em;
+}
+#cta .cta__container .cta__content-left .cta__list .cta__list-btns {
+  padding: 1em 0;
+}
+#cta .cta__container .cta__content-left .cta__list .cta__list-btns .cta__btn-ios {
+  color: #fff;
+}
+#cta .cta__container .cta__content-left .cta__list .cta__list-btns .cta__btn-android {
+  color: #b33113;
+  background-color: transparent;
+  border: 1px solid #b33113;
+}
+#cta .cta__container .cta__content-left .cta__list .cta__list-btns p {
+  display: block;
+  padding-top: 1em;
+  color: rgba(233, 233, 233, 0.326);
+}
+
 /*# sourceMappingURL=style.css.map */
