@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as var;
+
+/* BASE */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var.$font-main;
+  margin: 0;
+  color: var.$color-main;
+}
+
+a {
+  text-decoration: none;
+}
